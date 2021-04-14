@@ -1,0 +1,166 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top a {
+    color: #222;
+}
+
+.bottom a {
+    color: rgb(0, 0, 0, .54);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top a {
+    padding: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+.centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    display: block;
+    padding: 25px;
+}
+
+.languages-offered {
+    font-size: 10px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.search_icon {
+    background: url('outline_search_black_24dp.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    filter: contrast(0);
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchbar input {
+    width: 50vw;
+    max-width: 500px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding: 0 40px;
+    font-size: initial;
+}
+
+.searchbar input:hover {
+    box-shadow: 0px 1.8px #dfdfdf;
+}
+
+.google-apps {
+    background: url('outline_apps_black_24dp.png');
+    background-color: transparent;
+    filter: contrast(0);
+    padding: 10px;
+}
+
+.sign-in button {
+    background: #2b7de9;
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+    padding:  9px 23px;
+    font-size: 14px;
+}
+
+.buttons {
+    padding: 30px;
+}
+
+.buttons button:hover {
+    border: 1px solid #c0c0c0;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px;
+    color: #3c4043;
+    background-color: rgb(248, 249, 250);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(238, 238, 238);
+    color: rgb(0, 0, 0, .54);
+}
+
+.country {
+    padding: 10px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.more-info {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.left a, .right a {
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .more-info {
+        flex-direction: column;
+    }
+}
