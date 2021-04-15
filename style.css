@@ -57,6 +57,7 @@ a:hover {
 .searchbar {
     display: flex;
     flex-direction: row;
+    top: 50%
 }
 
 .search_icon {
@@ -108,6 +109,7 @@ input:focus {
 
 .buttons {
     padding: 30px;
+    margin-top: 30px;
 }
 
 .buttons button:hover {
@@ -142,7 +144,7 @@ input:focus {
 .more-info {
     display: flex;
     padding-top: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .left {
@@ -153,6 +155,7 @@ input:focus {
 .right {
     display: flex;
     justify-content: center;
+    padding-right: 20px;
 }
 
 .left a, .right a {
