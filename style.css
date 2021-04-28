@@ -121,6 +121,7 @@ input:focus {
     padding: 10px;
     color: #3c4043;
     background-color: rgb(248, 249, 250);
+    border: 1px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     border: none;
